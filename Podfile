@@ -8,7 +8,7 @@ target 'mobile2' do
 	pod 'SwiftVideoBackground'
   pod 'NotificationView'
 
-   post_install do |installer|
+   post_install do |installer
        installer.generated_projects.each do |project|
              project.targets.each do |target|
                  target.build_configurations.each do |config|
